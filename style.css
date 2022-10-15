@@ -1,0 +1,104 @@
+.back{
+    background-color: antiquewhite;
+}
+.navbar{
+    background:linear-gradient(180deg,black,red);
+}
+.booking{
+    background-color:red;
+    text-align: center;
+    color: antiquewhite;
+}
+.adi{
+        background-image: url('adi.jpg');
+        background-size: cover;
+    }
+    #adi1{
+        background-image: url();
+        background-size: cover;
+    }
+.copy{
+        border-radius: 10px;
+    }
+.nav-link:hover{
+    font-size: 20px;
+    font-weight: bold;
+}
+.remaind{
+    background-color: aqua;
+}
+.navbar{
+    background: linear-gradient(180deg,red,black);
+    
+}
+.accordian-content{
+    color: aliceblue;
+    height: 0px;
+    overflow:hidden;
+
+}
+.container{
+    width: 88%;
+    margin:50PX auto;
+   
+}
+.container:hover{
+    width: 88%;
+    margin:50PX auto;
+}
+.accordian{
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    font-size: 20px;
+    background-color:white;
+}
+.accordia{
+    width: 100%;
+    text-align:left;
+    padding: 15px;
+    font-size: 20px;
+   
+}
+.nav{
+    font-weight: bold;
+    list-style-type: none;
+}
+.footer{
+    background-color: black;
+    color: aliceblue;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    position: sticky !important;
+    z-index:15;
+}
+.nava{
+    font-weight: bolder;
+    color: aliceblue;
+}
+.nava:hover{
+    font-weight: bolder;
+    font-size: large;
+    color: red;
+}
+.paykaro{
+    background-image: url("logo12.png");
+    
+    background-size: cover;
+    background-color: antiquewhite;
+    position: relative;
+    position: 50%;
+}
+body{
+    background:#000;
+}
+.inner{
+    overflow: hidden;
+}
+.inner img{
+    transition: all 1.5s ease;
+}
+.inner:hover img{
+    transition: scale(1.5);
+}

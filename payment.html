@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <script src="js/bootstrap.bundle.js" async></script>
+    <title>pay karo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="patm">
+    <nav class="navbar navbar-expand-sm p-3">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item active text-light px-3 ">
+                <a href="#" class="nav-link nava ">Payments</a>
+            </li>
+            <li class="nav-item active text-light px-3">
+                <a href="qr.html" class="nav-link nava ">QR</a>
+            </li>
+            <li class="nav-item active text-light px-3">
+                <a href="history.html" class="nav-link nava">History</a>
+            </li>
+  </ul>
+    </nav>
+    <div class="box">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="pay2.gif" width="555" height="375">
+            </div>
+            <div class="col-md-4">
+                <div class="container text-center text-white">
+                    <h1><i>payments</i></h1>
+                    <div class="form">
+                    <button class="accordian">Debit/Credit</button>
+                
+                    <div class="accordian-content">
+                    <div class="card">
+                        <input type="text" placeholder="Card number">
+                        <input type="text" placeholder="Expiry date">
+                        <input type="password" placeholder="CVV">
+                        <a href="#" class="btn btn-danger">Pay</a>
+                    </div>
+                    </div>
+                    </div>
+                    <button class="accordian">G-pay</button>
+                    <div class="accordian-content">
+                        <input type="text" placeholder="Enter UPI ID">
+                        <a href="#" class="btn btn-danger">Go</a>
+                    </div>
+                    <button class="accordian">Phone-pay</button>
+                    <div class="accordian-content">
+                        <input type="text" placeholder="Enter UPI ID">
+                        <a href="#" class="btn btn-danger">Go</a>
+                    </div>
+                    <button class="accordian fa">paytm</fa></button>
+                    <div class="accordian-content">
+                        <input type="text" placeholder="Enter UPI ID">
+                        <a href="#" class="btn btn-danger">Go</a>
+                    </div>
+                    <button class="accordian">Online Banking</button>
+                    <div class="accordian-content">
+                        <input type="text" placeholder="Enter Mobile No.">
+                        <a href="#" class="btn btn-danger">Go</a>
+                    </div>
+                </div>
+            </div>
+        <div class="col-md-4">
+            <img src="pay.gif" width="496" height="375">
+        </div>
+        </div>
+        
+    </div>
+    <marquee><h1 class="text-danger">🤑💳Payment karo Bhai😊😊</h1></marquee><br><br><br><br><br><br>
+    <div class="footer mt-3">
+       <label> <p>MovieMeta©.ac.vc.in</p></label>
+    </div>
+    <script>
+        var x=document.getElementsByClassName("accordian");
+        for(i=0 ; i<x.length;i++){
+            x[i].onclick=function(){
+                var d=this.nextElementSibling;
+                if(d.style.height)
+                {
+                    d.style.height=null;
+                }
+                else{
+                    d.style.height=d.scrollHeight+"px";
+                }
+            }
+        }
+    </script>
+</body>
+</html>
