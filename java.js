@@ -1,4 +1,45 @@
-
+document.querySelector(".videoplay1").addEventListener("mouseover",function(){
+    this.play();
+});
+document.querySelector(".videoplay1").addEventListener("mouseleave",function(){
+    this.pause();
+});
+document.querySelector(".videoplay2").addEventListener("mouseover",function(){
+    this.play();
+});
+document.querySelector(".videoplay2").addEventListener("mouseleave",function(){
+    this.pause();
+});
+document.querySelector(".videoplay3").addEventListener("mouseover",function(){
+    this.play();
+});
+document.querySelector(".videoplay3").addEventListener("mouseleave",function(){
+    this.pause();
+});
+document.querySelector(".videoplay4").addEventListener("mouseover",function(){
+    this.play();
+});
+document.querySelector(".videoplay4").addEventListener("mouseleave",function(){
+    this.pause();
+});
+document.querySelector(".videoplay5").addEventListener("mouseover",function(){
+    this.play();
+});
+document.querySelector(".videoplay5").addEventListener("mouseleave",function(){
+    this.pause();
+});
+document.querySelector(".videoplay6").addEventListener("mouseover",function(){
+    this.play();
+});
+document.querySelector(".videoplay6").addEventListener("mouseleave",function(){
+    this.pause();
+});
+document.querySelector(".videoplay7").addEventListener("mouseover",function(){
+    this.play();
+});
+document.querySelector(".videoplay7").addEventListener("mouseleave",function(){
+    this.pause();
+});
 
 
 function calcTotal(){
@@ -18,3 +59,4 @@ function calcTotal(){
         payment.innerText= total +"₹ pay";
     }
     }
+ 
